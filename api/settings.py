@@ -24,9 +24,9 @@ SECRET_KEY = 'django-insecure-r1e&w83(8sy2scvqv#i$b*q^-1i$*r+%dh72sv4e02*^pl)hp7
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-LOCAL = True
+LOCAL = False
 
-ALLOWED_HOSTS = ['https://django-api-class.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 EMAIL_HOST = 'localhost'
