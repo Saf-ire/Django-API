@@ -1,0 +1,10 @@
+signuo(backup).txt
+Times.txt
+
+venv
+*migrations
+
+*__pychache__
+*__init.py__
+
+
